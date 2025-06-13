@@ -1,10 +1,4 @@
 #! /bin/bash
-
-# https://askubuntu.com/questions/314395/proper-way-to-let-user-enter-password-for-a-bash-script-using-only-the-gui-with
-# https://unix.stackexchange.com/questions/80981/how-to-make-my-bash-script-look-100-like-a-gui-app-so-user-never-sees-terminal?noredirect=1#comment119643_80981
-
-# sudo dnf update -y &&  && sudo dnf clean dbcache -y && sudo dnf autoremove -y
-
 PASSWD="$(zenity --password --title=Authentication)"
 
 (
